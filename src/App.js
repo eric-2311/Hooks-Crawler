@@ -1,8 +1,9 @@
 import React from 'react';
+import Knight from './features/knight/knight'
 
 function App() {
   return (
-    <div>Hello World</div>
+    <Knight/>
   );
 }
 
