@@ -6,7 +6,7 @@ function Knight(props) {
     return (
         <div
             style={{
-                position: 'relative',
+                position: 'absolute',
                 top: props.pos[1],
                 left: props.pos[0],
                 backgroundImage: `url('${knightWalk}')`,

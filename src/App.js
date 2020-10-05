@@ -1,9 +1,11 @@
 import React from 'react';
-import Knight from './features/knight/knight'
+import World from './features/world/world';
 
 function App() {
   return (
-    <Knight/>
+    <div>
+      <World/>
+    </div>
   );
 }
 
