@@ -1,6 +1,7 @@
 import React from 'react';
 import knightWalk from './noBKG_KnightRun_strip.png'
 import { connect } from 'react-redux';
+import handleMovement from './movement';
 
 function Knight(props) {
     return (
@@ -24,4 +25,4 @@ function mSTP(state) {
     }
 }
 
-export default connect(mSTP)(Knight)
+export default connect(mSTP)(handleMovement(Knight))
