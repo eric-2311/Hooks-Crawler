@@ -13,6 +13,8 @@ export default function handleMovement(knight) {
                 return [oldPos[0], oldPos[1] - 50];
             case 'DOWN':
                 return [oldPos[0], oldPos[1] + 50];
+            default:
+
         }
     }
     
@@ -37,6 +39,7 @@ export default function handleMovement(knight) {
                 return moveDir('RIGHT');
             case 40:
                 return moveDir('DOWN')
+            default:
         }
     }
     
